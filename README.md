@@ -2,16 +2,16 @@
 Template genérico de um backend moldado sobre API Rest com funcionalidades bases para diversas aplicações.  
 
 # Funcionalidades:
-Autenticação JWT
-Relacionamento entre tabelas 
-Geração automática de migrations 
-Configurações de build para homologação
+- Autenticação JWT
+- Relacionamento entre tabelas 
+- Geração automática de migrations 
+- Configurações de build para homologação
 
 # Stacks:
-TypeORM 
-PostgreSQL
-Node.js
-Express
+- TypeORM 
+- PostgreSQL
+- Node.js
+- Express
 
 # IMPORTANTE
 Em tsconfig.json, as configurações estão setadas da seguinte forma:
