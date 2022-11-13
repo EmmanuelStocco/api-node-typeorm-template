@@ -13,7 +13,7 @@ PostgreSQL
 Node.js
 Express
 
-#IMPORTANTE
+# IMPORTANTE
 Em tsconfig.json, as configurações estão setadas da seguinte forma:
 compilerOptions => 
   - target versionado para o es2018 
