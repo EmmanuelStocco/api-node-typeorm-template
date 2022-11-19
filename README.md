@@ -8,6 +8,7 @@ Template genérico de um backend moldado sobre API Rest com funcionalidades base
 - Configurações de build para homologação
 - Cors configurado
 - Geração automática de seeds
+- Typescript build configurado para deploy
 
 # Stacks:
 - TypeORM 
