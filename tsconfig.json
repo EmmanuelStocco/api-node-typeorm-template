@@ -14,7 +14,9 @@
 		"strict": true,
 		"noImplicitAny": true,
 		"strictPropertyInitialization": false,
-		"typeRoots": ["./src/@types"]
+		"typeRoots": ["./src/@types"],
+		"skipLibCheck": true,
+
 	},
 	"include": ["src/**/*"],
 	"exclude": ["node_modules", "dist"],
