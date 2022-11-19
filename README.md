@@ -6,6 +6,8 @@ Template genérico de um backend moldado sobre API Rest com funcionalidades base
 - Relacionamento entre tabelas 
 - Geração automática de migrations 
 - Configurações de build para homologação
+- Cors configurado
+- Geração automática de seeds
 
 # Stacks:
 - TypeORM 
