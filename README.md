@@ -16,6 +16,14 @@ Template genérico de um backend moldado sobre API Rest com funcionalidades base
 - Node.js
 - Express
 
+# Comandos 
+Npm run || Yarn
+-  dev => utilize "npm run dev || yarn dev" para executar o servidor node atravéz do nodemon em modo de desenvolvimento, assim alterações no código resultarão instantaneman no reload da aplicação 
+- migration:generate => após criar modelos e entities para o banco de dados, utilize esse comando para gerar as migrations referentes ao modelo estruturado (cada nova entitie criada, ao rodar este comando vai atualizar as migrations anteriores)
+- migration:run => utilize este comando para "rodar" as migrations já geradas
+- build => utilize para buildar o código em typescript para javascript otimizado 
+- start => com start o build gerado será startado (servidores utilizam para startar a aplicação)
+
 # IMPORTANTE
 Em tsconfig.json, as configurações estão setadas da seguinte forma:
 compilerOptions => 
